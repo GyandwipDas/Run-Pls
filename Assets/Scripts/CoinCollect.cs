@@ -4,10 +4,12 @@ public class CoinCollect : MonoBehaviour
 {
     public playermovement movement;
 
-    void OnCollisionEnter(Collision collisionInfo)
+    void OnTriggerEnter(Collider other)
     {
 
-        if(collisionInfo.collider.tag == "coin")
+        
+        
+        if(other.GetComponent<Collider>().tag == "Player")
         {   
             Debug.Log("Coin collected!");  
             Destroy(gameObject);//des coin

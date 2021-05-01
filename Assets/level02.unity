@@ -1217,7 +1217,6 @@ MonoBehaviour:
   restartDelay: 3
   levelcompleteui: {fileID: 992987401}
   levelfailedui: {fileID: 1164148220}
-  gameManager: {fileID: 0}
 --- !u!4 &790643849
 Transform:
   m_ObjectHideFlags: 0
@@ -3928,7 +3927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893277154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 480}
+  m_LocalPosition: {x: 0, y: 3, z: 400}
   m_LocalScale: {x: 15, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4084,7 +4083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1964541055}
-  forwardForce: 2000
+  forwardForce: 2100
   sidewaysforce: 100
 --- !u!114 &1964541057
 MonoBehaviour:
@@ -4476,6 +4475,10 @@ PrefabInstance:
     - target: {fileID: 3215600498990937731, guid: 9abf78ac0c9811d4398852e64b872b83, type: 3}
       propertyPath: m_Name
       value: Coin1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215600498990937731, guid: 9abf78ac0c9811d4398852e64b872b83, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9abf78ac0c9811d4398852e64b872b83, type: 3}
